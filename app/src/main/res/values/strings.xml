@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="buy">Buy</string>
+    <string name="exit">Exit</string>
+    <string name="drawer_open">Menu open</string>
+    <string name="drawer_close">Menu close</string>
+    <string name="new_note_hint">New note</string>
+    <string name="lab_name">Laboratory work #1</string>
+    <string name="lab_author">Author:Kuzmin Ilia</string>
+    <string name="username">Kuzmin Ilia</string>
+    <string name="buy_message">Ok, just give me a dollar</string>
+    <string name="lab_author_group">Group: 6134?</string>
+    <string name="lab_university">Samara University</string>
+    <string name="common_ok">Ok</string>
+    <string name="common_about">About</string>
+    <string name="exit_confirmation">Exit confirmation</string>
+    <string name="confirmation">Are you sure you want to exit?</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="add_notes_hint">Add some notes here</string>
+    <string name="news_content">To my mind, the best Android apps excel in two areas: excellence and elegance. An excellent app provides something that no other app can.</string>
+    <string name="haulmont_advertisement">Advertisement from Haulmont</string>
+    <string name="haulmont_advertisement_content">Do you want to use the best full stack application Framework?</string>
+    <array name="news_array">
+        <item>Some cool news everyone!</item>
+        <item>News huh?</item>
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+    </array>
+    <string name="menu_bio">BIO</string>
+    <string name="menu_tags">Tags</string>
+    <string name="menu_settings">Settings</string>
+</resources>
