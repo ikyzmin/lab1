@@ -33,4 +33,13 @@
     <string name="menu_bio">BIO</string>
     <string name="menu_tags">Tags</string>
     <string name="menu_settings">Settings</string>
+    <string name="settings_sound">Sound</string>
+    <string name="settings_sound_summary">Default sound la la la</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_general">General</string>
+    <string name="settings_color">Color</string>
+    <string name="settings_advertisement">Advertisement</string>
+   <string name="settings_calendar_title">Today</string>
+    <string name="settings_instant_buy">Instant buy</string>
+    <string name="date_format">%1$d.%2$d.%3$d</string>
 </resources>

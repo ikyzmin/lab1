@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_general">
+    <PreferenceCategory android:title="@string/settings_general">
+        <EditTextPreference
+            android:key="sound"
+            android:summary="@string/settings_sound_summary"
+            android:title="@string/settings_sound" />
+        <SwitchPreferenceCompat
+            android:key="notification"
+            android:title="@string/settings_notifications" />
+        <com.ssau.lab1.ui.dialogs.ColorPreference android:key="color" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_advertisement">
+        <SwitchPreferenceCompat
+            android:key="instantBuy"
+            android:title="@string/settings_instant_buy" />
+        <com.ssau.lab1.ui.dialogs.CalendarPreference android:key="date" />
+    </PreferenceCategory>
+</PreferenceScreen>
