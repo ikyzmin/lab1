@@ -29,6 +29,8 @@ public enum MenuItem {
     }
 
     public void activate(Context context) {
-        context.startActivity(new Intent(context, activity));
+        if (activity!=null) {
+            context.startActivity(new Intent(context, activity));
+        }
     }
 }

@@ -22,7 +22,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
         Preference preference = findPreference("sound");
         if (preference instanceof EditTextPreference){
             EditTextPreference editTextPreference =  (EditTextPreference)preference;
-            if (editTextPreference.getText().trim().length() > 0){
+            if (editTextPreference.getText()!=null && editTextPreference.getText().trim().length() > 0){
                 editTextPreference.setSummary(editTextPreference.getText());
             }else{
                 editTextPreference.setSummary(getContext().getString(R.string.settings_sound_summary));
